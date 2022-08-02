@@ -1,0 +1,5 @@
+# pack-refs with: peeled fully-peeled sorted 
+002d613de7ab2e9bf27454f83d5a40e21d8fbb09 refs/remotes/origin/blue_whale2
+5062d5bff840007aab2ea217c97ac6dc935e2eb2 refs/remotes/origin/master
+9d9d8e39845a65c276a30ee8e5be9f8dca3e68ad refs/remotes/origin/prediction
+2b674592ec98ed1ce4af4d674c8431a1630bf4b6 refs/remotes/origin/predictive_maintenance

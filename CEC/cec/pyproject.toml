@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "cognite-cec"
+version = "0.1.0"
+description = "Data wrangling and analysis scripts for the California Energy Commission (CEC) Floatig Wind Project."
+authors = [
+    "Sangyoon Park <datumvitae@gmail.com>",
+    "Yutong Zhou <yz327@cornell.edu>",
+    "Yanyu Zhong <yz133@rice.edu>"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.21.0"
+pandas = "^1.0.5"
+cognite-sdk = "^1.8.0"
+cognite-sdk-experimental = "^0.12.0"
+pytz = "^2020.1"
+matplotlib = "^3.2.2"
+seaborn = "^0.10.1"
+jupyter = "^1.0.0"
+ipykernel = "^5.3.1"
+pandas-profiling = "^2.8.0"
+sklearn = "^0.0"
+opencv-contrib-python = "^4.4.0"
+imutils = "^0.5.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

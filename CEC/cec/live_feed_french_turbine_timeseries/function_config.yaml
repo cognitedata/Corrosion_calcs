@@ -1,0 +1,12 @@
+# Note: Parameters can be hardcoded directly in 'deploy-push.yaml'
+# if you do not need to vary them between your functions!
+schedules_client_id: b4af74bd-bba6-44a2-a746-30bdf3af23bb
+schedules_tenant_id: d23cde7f-e51b-434e-8aa1-72570012a2c6
+description: ""
+owner: CEC Team
+cpu: 0.1
+memory: 0.2
+# Parameters that are usually not needed to pass (they have good default values):
+# function_file: handler.py  # Use case: Just don't...
+# function_deploy_timeout: 1500  # Use case: CDF on Azure has slower deployment speed.
+# post_deploy_cleanup: false  # Use case: You want to keep the uploaded zipped code files.
